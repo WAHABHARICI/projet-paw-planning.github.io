@@ -322,3 +322,23 @@ body {
 .container.active .toggle-right {
   transform: translateX(200%);
 } /*# sourceMappingURL=main.min.css.map */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150%;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  z-index: 1;
+  /* background-color: #cf711fbd; */
+}
+.hidding {
+  display: none;
+}
+#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
