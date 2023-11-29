@@ -41,7 +41,6 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
  ?>
 
 
-
   <form method="post">
   <input name="titre" type="text" id="titel" >
   <textarea name="contenu" type="text" id="content" ></textarea>
