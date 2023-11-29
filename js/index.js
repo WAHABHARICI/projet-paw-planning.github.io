@@ -42,3 +42,9 @@ document.querySelector(".overlay").addEventListener("click", function () {
 // showFormButton.addEventListener("click", function () {
 //   signUpForm.classList.toggle("hidden");
 // });
+// Document.querySelector(".submit").addEventListener("click", function (event) {
+//   event.preventDefault();
+//   console.log("test");
+//   const mealname = Document.getElementById("name-input-1");
+//   document.querySelector(".meal-4").textContent = mealname;
+// });
